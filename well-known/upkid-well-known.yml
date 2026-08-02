@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.upkid.com and https://app.upkid.com
+note: >-
+  No real /.well-known/ discovery documents are published. www.upkid.com returns
+  404 for every probed path. app.upkid.com (Netlify SPA) returns HTTP 200 with
+  the app's HTML shell (text/html) for any path — a catch-all fallback, not a
+  well-known document — so those responses are recorded as not-found.
+hosts:
+  - host: https://www.upkid.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://app.upkid.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        content_type: text/html
+        spa_fallback: true
+        found: false
+      - path: /.well-known/openid-configuration
+        status: 200
+        content_type: text/html
+        spa_fallback: true
+        found: false

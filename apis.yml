@@ -1,7 +1,24 @@
 aid: upkid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upkid.png
 name: Upkid
-description: Upkid is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Upkid is a childcare staffing marketplace that connects early childhood programs
+  such as daycares and preschools with qualified, pre-vetted substitute and full-time teachers.
+  Programs post shifts and roles while educators find flexible teaching opportunities through
+  the Upkid web and mobile apps, with an ATS-style Hiring Hub for full-time childcare hiring.
+  Upkid operates across metro areas in Georgia, Utah, and Arizona and is a Techstars portfolio
+  company. Upkid publishes no public API or developer portal; its web app is a client of a
+  Firebase backend.
 url: https://raw.githubusercontent.com/api-evangelist/upkid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,10 +27,21 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Childcare
+- Education
+- Staffing
+- Marketplace
+- Hiring
+- Early Childhood Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/upkid-domain-security.yml
 - type: Website
-  url: https://joinupkid.com/
+  url: https://www.upkid.com/
+- type: Blog
+  url: https://www.upkid.com/blog
+- type: Support
+  url: https://upkid.zendesk.com/hc
+- type: TermsOfService
+  url: https://www.upkid.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.upkid.com/legal/privacy-policy
+- type: Login
+  url: https://app.upkid.com/
+- type: SignUp
+  url: https://app.upkid.com/select-account
+- type: LLMsTxt
+  url: llms/upkid-llms.txt

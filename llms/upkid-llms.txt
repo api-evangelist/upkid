@@ -1,0 +1,29 @@
+# Upkid
+
+> Upkid is a childcare staffing marketplace that connects early childhood programs — daycares and preschools — with qualified, pre-vetted substitute and full-time teachers. Programs post shifts and roles; educators find flexible teaching opportunities through the Upkid web app and mobile apps. Upkid operates across metro areas in Georgia, Utah, and Arizona, and is a Techstars portfolio company.
+
+Upkid does not publish a public API, developer portal, or API documentation. Its web application (app.upkid.com) is a client of a Firebase backend, and no OpenAPI, GraphQL, or other machine-readable API surface is published.
+
+## Company
+
+- [Website](https://www.upkid.com/): Upkid — connect early childhood programs with qualified teachers
+- [How Upkid Works](https://www.upkid.com/how-upkid-works): Product overview
+- [For Childcare Programs](https://www.upkid.com/childcare): Hire pre-vetted early childhood educators
+- [For Teachers](https://www.upkid.com/teachers): Find flexible teaching opportunities
+- [Hiring Hub ATS](https://www.upkid.com/hiring-hub-ats): Applicant tracking for childcare hiring
+- [Blog](https://www.upkid.com/blog): Company blog
+- [FAQs](https://www.upkid.com/faqs): Frequently asked questions
+- [Help Center](https://upkid.zendesk.com/hc): Zendesk support
+- [Web App](https://app.upkid.com/): Sign in / sign up
+- [iOS App](https://apps.apple.com/us/app/upkid/id1575435439)
+- [Android App](https://play.google.com/store/apps/details?id=com.upkid)
+
+## Legal
+
+- [Terms of Service](https://www.upkid.com/legal/terms)
+- [Privacy Policy](https://www.upkid.com/legal/privacy-policy)
+- [Acceptable Use Policy](https://www.upkid.com/legal/acceptable-use-policy)
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/upkid/refs/heads/main/apis.yml): API Evangelist network profile for Upkid
