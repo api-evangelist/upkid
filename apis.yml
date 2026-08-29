@@ -31,6 +31,9 @@ description: Upkid is a childcare staffing marketplace that connects early child
   company. Upkid publishes no public API or developer portal; its web app is a client of a
   Firebase backend.
 url: https://raw.githubusercontent.com/api-evangelist/upkid/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Upkid publishes no public API or developer portal; its web app is a client of a Firebase backend."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
